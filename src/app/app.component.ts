@@ -27,4 +27,27 @@ export class AppComponent implements OnInit {
     console.log('Email', form.value.email);
     console.log('Message', form.value.message);
   }
+
+  node = {
+    name: 'Root',
+    children: [
+      {
+        name: 'Child 1',
+        children: [
+          {
+            name: 'Grandchild 1',
+            children: [],
+          },
+          {
+            name: 'Grandchild 2',
+            children: [],
+          },
+        ],
+      },
+      {
+        name: 'Child 2',
+        children: [],
+      },
+    ],
+  };
 }
