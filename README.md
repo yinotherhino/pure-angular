@@ -1,27 +1,11 @@
-# PureAngular
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.1.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+I would prefer to request data from the server using Angular's built-in HTTP client service, which allows for asynchronous requests to be made to the server and handles the response using Observables.
+<br/>
+You can pass additional data to the server by including it as a query parameter in the HTTP request URL, or by adding it to the request headers using the HttpHeaders class.
+<br/>
+You can organize data exchange between components by creating a shared service that can be injected into each component that needs to interact with the data.
+<br/>
+You can display an unlimited nesting data tree in a Component template using Angular's built-in recursive templates or by using a third-party library like PrimeNG or NGX-Treeview.
+<br/>
+I prefer to use reactive forms because they provide a more flexible and scalable way of managing form data in Angular applications, and also allow for easier validation and handling of user input.
+<br/>
+When using an iframe with a dynamic URL, it is important to ensure that the URL is sanitized to prevent cross-site scripting (XSS) attacks. Angular provides a built-in DomSanitizer service that can be used to sanitize URLs before they are rendered in the iframe.
